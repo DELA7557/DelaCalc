@@ -20,4 +20,5 @@ public class CALCULATOR {
    double y = Double.parseDouble(args[2]);
      System.out.println(x*y);
  }
+  }
 }
