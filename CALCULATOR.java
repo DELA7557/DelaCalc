@@ -20,5 +20,10 @@ public class CALCULATOR {
    double y = Double.parseDouble(args[2]);
      System.out.println(x*y);
  }
+ else if (args[0].equals("divide")){
+   double x = Double.parseDouble(args[1]);
+   double y = Double.parseDouble(args[2]);
+     System.out.println(x/y);
+ }
   }
 }
